@@ -11,7 +11,7 @@ Following videos from [Python for Microscopists by Sreeni](https://www.youtube.c
 
 ```bash
 cd python-for-microscopists && \
-docker run -d -p 10000:8888 --name python-microscopy -v (pwd):/home/jovyan/work mproksik/python-microscopy:1.0 start.sh jupyter lab --NotebookApp.password='' \
+docker run -d -p 10000:8888 --name python-microscopy -v (pwd):/home/jovyan/work mproksik/python-microscopy:1.0 start.sh jupyter lab --NotebookApp.token=''
 ```
 
 5. Visit [http://localhost:10000](http://localhost:10000)
