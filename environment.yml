@@ -13,3 +13,4 @@ dependencies:
   - bioconda::scanpy=1.4.4.post1
   - anaconda::scikit-image=0.16.2
   - conda-forge::scikit-learn=0.22.2
+  - conda-forge::opencv=4.2.0

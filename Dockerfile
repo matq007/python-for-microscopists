@@ -1,7 +1,7 @@
 FROM jupyter/base-notebook:notebook-6.0.0
 
 USER root
-RUN apt-get update && apt-get install -y build-essential wget
+RUN apt-get update && apt-get install -y build-essential wget libgl1-mesa-glx
 
 RUN ln -s /opt/conda/bin/pip /usr/bin/pip3
 
